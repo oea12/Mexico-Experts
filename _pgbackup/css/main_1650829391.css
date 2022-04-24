@@ -128,14 +128,10 @@ strong {
 
 iframe {
     width: 100%;
-    border: none;
-    padding: 19px;
-    margin-bottom: 0px;
-    min-height: 422px;
-    box-sizing: content-box;
-    display: block;
     float: left;
-    background-color: rgba(255, 255, 255, 0) !important;
+    border: none;
+    padding: 9px;
+    margin-bottom: 0px;
 }
 
 .wp-caption,
@@ -1492,7 +1488,7 @@ address {
 }
 
 .tg-navigation > ul > li > a:before {
-    bottom: 4px;
+    bottom: 21px;
 }
 
 .tg-navigation > ul > li.current-menu-item > a:before,
@@ -1705,12 +1701,11 @@ address {
     width: 100%;
     height: 100%;
     position: absolute;
+    padding: 100px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .tg-bannerholder .tg-homeslider .item {
@@ -2029,6 +2024,7 @@ address {
 			Features Style						
 ============================================= */
 .tg-zerotoppadding {
+    padding-top: 0px !important;
 }
 
 .tg-zerobottompadding {
@@ -2068,7 +2064,6 @@ address {
 
 .tg-featuretitle h2 span {
     padding: 0 8px 0 0;
-    color: #ff754f !important;
 }
 
 .tg-featuretitle h2 a {
@@ -2091,6 +2086,7 @@ address {
 }
 
 .tg-parallax .tg-sectionspace {
+    background: rgba(0, 0, 0, 0.50);
 }
 
 .tg-parallax .tg-sectiontitleleft h2 {
